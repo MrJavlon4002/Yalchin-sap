@@ -1,0 +1,20 @@
+{
+  "" : {
+    "const-values" : "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Runner.build/Release-iphoneos/Runner.build/Objects-normal/arm64/Runner-master.swiftconstvalues",
+    "dependencies" : "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Runner.build/Release-iphoneos/Runner.build/Objects-normal/arm64/Runner-master.d",
+    "diagnostics" : "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Runner.build/Release-iphoneos/Runner.build/Objects-normal/arm64/Runner-master.dia",
+    "emit-module-dependencies" : "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Runner.build/Release-iphoneos/Runner.build/Objects-normal/arm64/Runner-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Runner.build/Release-iphoneos/Runner.build/Objects-normal/arm64/Runner-master-emit-module.dia",
+    "swift-dependencies" : "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Runner.build/Release-iphoneos/Runner.build/Objects-normal/arm64/Runner-master.swiftdeps"
+  },
+  "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Runner.build/Release-iphoneos/Runner.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/Runner.build/Release-iphoneos/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Runner.build/Release-iphoneos/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Runner.build/Release-iphoneos/Runner.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/javlonvaliyev/Desktop/sap_app/ios/Runner/AppDelegate.swift" : {
+    "index-unit-output-path" : "/Runner.build/Release-iphoneos/Runner.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Runner.build/Release-iphoneos/Runner.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Runner.build/Release-iphoneos/Runner.build/Objects-normal/arm64/AppDelegate.o"
+  }
+}

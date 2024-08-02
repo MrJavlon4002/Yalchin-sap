@@ -1,0 +1,18 @@
+"/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseStorage/FirebaseStorage/Sources/StorageObservableTask.swift":
+  const-values: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/x86_64/StorageObservableTask.swiftconstvalues"
+  object: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/x86_64/StorageObservableTask.o"
+  swift-dependencies: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/x86_64/StorageObservableTask.swiftdeps"
+  dependencies: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/x86_64/StorageObservableTask.d"
+  diagnostics: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/x86_64/StorageObservableTask.dia"
+"/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseStorage/FirebaseStorage/Sources/StorageMetadata.swift":
+  const-values: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/x86_64/StorageMetadata.swiftconstvalues"
+  dependencies: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/x86_64/StorageMetadata.d"
+  object: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/x86_64/StorageMetadata.o"
+  diagnostics: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/x86_64/StorageMetadata.dia"
+  swift-dependencies: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/x86_64/StorageMetadata.swiftdeps"
+"/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseStorage/FirebaseStorage/Sources/Internal/StoragePath.swift":
+  swift-dependencies: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/x86_64/StoragePath.swiftdeps"
+  diagnostics: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/x86_64/StoragePath.dia"
+  const-values: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/x86_64/StoragePath.swiftconstvalues"
+  object: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/x86_64/StoragePath.o"
+  dependencies: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/x86_64/StoragePath.d"

@@ -1,0 +1,18 @@
+"/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseSessions/FirebaseSessions/Sources/SessionStartEvent.swift":
+  const-values: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/x86_64/SessionStartEvent.swiftconstvalues"
+  diagnostics: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/x86_64/SessionStartEvent.dia"
+  swift-dependencies: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/x86_64/SessionStartEvent.swiftdeps"
+  object: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/x86_64/SessionStartEvent.o"
+  dependencies: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/x86_64/SessionStartEvent.d"
+"/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseSessions/FirebaseSessions/Sources/Settings/SettingsCacheClient.swift":
+  diagnostics: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/x86_64/SettingsCacheClient.dia"
+  dependencies: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/x86_64/SettingsCacheClient.d"
+  object: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/x86_64/SettingsCacheClient.o"
+  swift-dependencies: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/x86_64/SettingsCacheClient.swiftdeps"
+  const-values: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/x86_64/SettingsCacheClient.swiftconstvalues"
+"/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseSessions/FirebaseSessions/Sources/Settings/SettingsDownloadClient.swift":
+  dependencies: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/x86_64/SettingsDownloadClient.d"
+  object: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/x86_64/SettingsDownloadClient.o"
+  const-values: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/x86_64/SettingsDownloadClient.swiftconstvalues"
+  diagnostics: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/x86_64/SettingsDownloadClient.dia"
+  swift-dependencies: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/x86_64/SettingsDownloadClient.swiftdeps"

@@ -1,0 +1,18 @@
+"/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseSessions/FirebaseSessions/Sources/Public/SessionsSubscriber.swift":
+  const-values: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/arm64/SessionsSubscriber.swiftconstvalues"
+  object: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/arm64/SessionsSubscriber.o"
+  dependencies: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/arm64/SessionsSubscriber.d"
+  swift-dependencies: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/arm64/SessionsSubscriber.swiftdeps"
+  diagnostics: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/arm64/SessionsSubscriber.dia"
+"/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseSessions/FirebaseSessions/Sources/Public/SessionsProvider.swift":
+  dependencies: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/arm64/SessionsProvider.d"
+  object: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/arm64/SessionsProvider.o"
+  diagnostics: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/arm64/SessionsProvider.dia"
+  swift-dependencies: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/arm64/SessionsProvider.swiftdeps"
+  const-values: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/arm64/SessionsProvider.swiftconstvalues"
+"/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseSessions/FirebaseSessions/Sources/Settings/SessionsSettings.swift":
+  object: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/arm64/SessionsSettings.o"
+  const-values: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/arm64/SessionsSettings.swiftconstvalues"
+  dependencies: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/arm64/SessionsSettings.d"
+  diagnostics: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/arm64/SessionsSettings.dia"
+  swift-dependencies: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseSessions.build/Objects-normal/arm64/SessionsSettings.swiftdeps"

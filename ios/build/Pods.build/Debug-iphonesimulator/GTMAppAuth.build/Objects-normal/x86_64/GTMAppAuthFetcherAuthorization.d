@@ -1,0 +1,49 @@
+dependencies: \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/GTMAppAuth.build/module.modulemap \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/GTMAppAuth/GTMAppAuth/Sources/GTMAppAuthFetcherAuthorization.m \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/GTMAppAuth/GTMAppAuth/Sources/Public/GTMAppAuth/GTMAppAuthFetcherAuthorization.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/GTMSessionFetcher/Sources/Core/Public/GTMSessionFetcher/GTMSessionFetcher.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/GTMSessionFetcher.build/module.modulemap \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Target\ Support\ Files/GTMSessionFetcher/GTMSessionFetcher-umbrella.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/GTMSessionFetcher/Sources/Core/Public/GTMSessionFetcher/GTMSessionFetcherLogging.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/GTMSessionFetcher/Sources/Core/Public/GTMSessionFetcher/GTMSessionFetcherService.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/GTMSessionFetcher/Sources/Core/Public/GTMSessionFetcher/GTMSessionUploadFetcher.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphonesimulator/AppAuth.build/module.modulemap \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Target\ Support\ Files/AppAuth/AppAuth-umbrella.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDAuthState.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDAuthStateChangeDelegate.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDAuthStateErrorDelegate.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDAuthorizationRequest.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDExternalUserAgentRequest.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDResponseTypes.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDScopes.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDAuthorizationResponse.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDAuthorizationService.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDError.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDErrorUtilities.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDExternalUserAgent.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDExternalUserAgentSession.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDGrantTypes.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDIDToken.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDRegistrationRequest.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDRegistrationResponse.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDScopeUtilities.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDServiceConfiguration.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDServiceDiscovery.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDTokenRequest.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDTokenResponse.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDTokenUtilities.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDURLSessionProvider.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDEndSessionRequest.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDEndSessionResponse.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDClientMetadataParameters.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDDefines.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDFieldMapping.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuthCore/OIDURLQueryComponent.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuth.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuth/iOS/OIDAuthState+IOS.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuth/iOS/OIDAuthorizationService+IOS.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuth/iOS/OIDExternalUserAgentIOS.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuth/iOS/OIDExternalUserAgentIOSCustomBrowser.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/AppAuth/Source/AppAuth/iOS/OIDExternalUserAgentCatalyst.h

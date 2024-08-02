@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1089950466363",
+    "firebase_url": "https://yalchin-4d731-default-rtdb.firebaseio.com",
+    "project_id": "yalchin-4d731",
+    "storage_bucket": "yalchin-4d731.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089950466363:android:1e6d6a677284e0835fb71e",
+        "android_client_info": {
+          "package_name": "com.example.sap_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ49qQgtZ4O1pRC-D9ikE_yC686OYoRZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

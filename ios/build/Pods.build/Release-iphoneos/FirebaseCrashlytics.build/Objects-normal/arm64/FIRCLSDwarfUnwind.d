@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Release-iphoneos/FirebaseCrashlytics.build/module.modulemap \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Unwind/Dwarf/FIRCLSDwarfUnwind.c \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Unwind/Dwarf/FIRCLSDwarfUnwind.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Helpers/FIRCLSThreadState.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Unwind/Dwarf/FIRCLSDwarfUnwindRegisters.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Helpers/FIRCLSFeatures.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Helpers/FIRCLSDefines.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Unwind/Dwarf/FIRCLSDataParsing.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Unwind/Dwarf/FIRCLSDwarfExpressionMachine.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Unwind/FIRCLSUnwind_arch.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Unwind/Compact/FIRCLSCompactUnwind.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Helpers/FIRCLSUtility.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Components/FIRCLSGlobals.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Components/FIRCLSContext.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Components/FIRCLSBinaryImage.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Helpers/FIRCLSFile.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Shared/FIRCLSMachO/FIRCLSMachO.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Components/FIRCLSHost.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Components/FIRCLSUserLogging.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Handlers/FIRCLSException.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Handlers/FIRCLSMachException.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Handlers/FIRCLSSignal.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Helpers/FIRCLSAllocate.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Helpers/FIRCLSInternalLogging.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/third_party/libunwind/dwarf.h

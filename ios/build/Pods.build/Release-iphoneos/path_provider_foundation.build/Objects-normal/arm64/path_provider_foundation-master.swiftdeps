@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "4683c374124b74293d40a5e8364b95a741185f0fa15e23e9019d8c539e77236f"
+build_start_time: [1700068073, 713620000]
+build_end_time: [1700068110, 43464000]
+inputs:
+  "/Users/javlonvaliyev/.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.1/darwin/Classes/PathProviderPlugin.swift": [1699170668, 800235657]
+  "/Users/javlonvaliyev/.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.1/darwin/Classes/messages.g.swift": [1699170668, 799754161]

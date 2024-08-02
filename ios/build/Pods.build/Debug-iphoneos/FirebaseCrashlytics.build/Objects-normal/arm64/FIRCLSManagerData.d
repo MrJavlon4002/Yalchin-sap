@@ -1,0 +1,43 @@
+dependencies: \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/module.modulemap \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Controllers/FIRCLSManagerData.m \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Controllers/FIRCLSManagerData.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Components/FIRCLSApplication.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Controllers/FIRCLSContextManager.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Models/FIRCLSFileManager.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Models/FIRCLSInternalReport.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Helpers/FIRCLSFeatures.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Helpers/FIRCLSDefines.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Models/FIRCLSSettings.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromises.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Debug-iphoneos/PromisesObjC.build/module.modulemap \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Target\ Support\ Files/PromisesObjC/PromisesObjC-umbrella.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+All.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromiseError.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Always.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Any.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Async.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Await.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Catch.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Delay.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Do.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Race.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Recover.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Reduce.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Retry.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Testing.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Then.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Timeout.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Validate.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Wrap.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Models/FIRCLSExecutionIdentifierModel.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Models/FIRCLSInstallIdentifierModel.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Private/FIRCLSOnDemandModel_Private.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Models/FIRCLSOnDemandModel.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Private/FIRCLSExistingReportManager_Private.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Controllers/FIRCLSExistingReportManager.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Private/FIRExceptionModel_Private.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Public/FirebaseCrashlytics/FIRExceptionModel.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Public/FirebaseCrashlytics/FIRStackFrame.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Settings/Models/FIRCLSApplicationIdentifierModel.h

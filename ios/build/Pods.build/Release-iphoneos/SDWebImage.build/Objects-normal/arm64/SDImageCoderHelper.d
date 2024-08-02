@@ -1,0 +1,18 @@
+dependencies: \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Release-iphoneos/SDWebImage.build/module.modulemap \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/SDWebImage/SDWebImage/Core/SDImageCoderHelper.m \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Target\ Support\ Files/SDWebImage/SDWebImage-prefix.pch \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/SDWebImage/SDWebImage/Core/SDImageCoderHelper.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/SDWebImage/SDWebImage/Core/SDWebImageCompat.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/SDWebImage/SDWebImage/Core/SDImageFrame.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/SDWebImage/SDWebImage/Core/NSImage+Compatibility.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/SDWebImage/SDWebImage/Core/NSData+ImageContentType.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImageRep.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/SDWebImage/SDWebImage/Core/UIImage+ForceDecode.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/SDWebImage/SDWebImage/Private/SDAssociatedObject.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/SDWebImage/SDWebImage/Core/UIImage+Metadata.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/SDWebImage/SDWebImage/Core/SDImageCoder.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/SDWebImage/SDWebImage/Private/SDInternalMacros.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/SDWebImage/SDWebImage/Private/SDmetamacros.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/SDWebImage/SDWebImage/Core/SDGraphicsImageRenderer.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/SDWebImage/SDWebImage/Private/SDDeviceHelper.h

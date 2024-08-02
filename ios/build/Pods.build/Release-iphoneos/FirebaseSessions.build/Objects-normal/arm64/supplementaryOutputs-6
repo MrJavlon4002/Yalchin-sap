@@ -1,0 +1,9 @@
+"/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseSessions/FirebaseSessions/Sources/ApplicationInfo.swift":
+  objc-header: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Release-iphoneos/FirebaseSessions.build/Objects-normal/arm64/FirebaseSessions-Swift.h"
+  const-values: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Release-iphoneos/FirebaseSessions.build/Objects-normal/arm64/FirebaseSessions-master.swiftconstvalues"
+  dependencies: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Release-iphoneos/FirebaseSessions.build/Objects-normal/arm64/FirebaseSessions-master.d"
+  swiftmodule: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Release-iphoneos/FirebaseSessions.build/Objects-normal/arm64/FirebaseSessions.swiftmodule"
+  swiftdoc: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Release-iphoneos/FirebaseSessions.build/Objects-normal/arm64/FirebaseSessions.swiftdoc"
+  diagnostics: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Release-iphoneos/FirebaseSessions.build/Objects-normal/arm64/FirebaseSessions-master.dia"
+  swiftsourceinfo: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Release-iphoneos/FirebaseSessions.build/Objects-normal/arm64/FirebaseSessions.swiftsourceinfo"
+  abi-baseline-json: "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Release-iphoneos/FirebaseSessions.build/Objects-normal/arm64/FirebaseSessions.abi.json"

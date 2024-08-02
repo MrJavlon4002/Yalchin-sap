@@ -1,0 +1,124 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_$s16FirebaseSessions0B14SubscriberNameO11descriptionSSvg",
+            "_firebase_appquality_sessions_AppleApplicationInfo_fields",
+            "_$s16FirebaseSessions14SessionDetailsC9sessionIdSSSgvpMV",
+            "_$s16FirebaseSessions14SessionDetailsC9sessionIdACSSSg_tcfCTq",
+            "_$sSo39_firebase_appquality_sessions_EventTypeV16FirebaseSessionsE11descriptionSSvg",
+            "_$sSo49_firebase_appquality_sessions_DataCollectionStateV16FirebaseSessionsE11descriptionSSvpMV",
+            "_$s16FirebaseSessions0B14SubscriberNameO8rawValueACSgSi_tcfC",
+            "_$s16FirebaseSessions0B12DependenciesCfD",
+            "_$s16FirebaseSessions0B14SubscriberNameOs23CustomStringConvertibleAAMc",
+            "_$s16FirebaseSessions14SessionDetailsC9sessionIdACSSSg_tcfc",
+            "_$s16FirebaseSessions14SessionDetailsC9sessionIdSSSgvpfi",
+            "_$s16FirebaseSessions0B14SubscriberNameO8rawValueSivpMV",
+            "_$s16FirebaseSessions14SessionDetailsCfD",
+            "_$s16FirebaseSessions14SessionDetailsC9sessionIdSSSgvMTq",
+            "_firebase_appquality_sessions_AndroidApplicationInfo_fields",
+            "_$s16FirebaseSessions14SessionDetailsCN",
+            "_$s16FirebaseSessions0B12DependenciesCN",
+            "_$s16FirebaseSessions14SessionDetailsCMa",
+            "_$s16FirebaseSessions14SessionDetailsC9sessionIdSSSgvs",
+            "_$sxSgs23CustomStringConvertible16FirebaseSessionsSpySo16pb_bytes_array_sVGRszlMc",
+            "_$s16FirebaseSessions0B14SubscriberNameOMa",
+            "_$s16FirebaseSessions14SessionDetailsC9sessionIdACSSSg_tcfC",
+            "_$s16FirebaseSessions14SessionDetailsC9sessionIdSSSgvg",
+            "_$sSpyxGs23CustomStringConvertible16FirebaseSessionsSo16pb_bytes_array_sVRszlMc",
+            "_$sSo44_firebase_appquality_sessions_LogEnvironmentV16FirebaseSessionsE11descriptionSSvg",
+            "_$sSo39_firebase_appquality_sessions_EventTypeVs23CustomStringConvertible16FirebaseSessionsMc",
+            "_$s16FirebaseSessions0B12DependenciesCACycfc",
+            "_Swift51Overrides",
+            "_$s16FirebaseSessions14SessionDetailsC9sessionIdSSSgvM",
+            "_$sSq16FirebaseSessionsSpySo16pb_bytes_array_sVGRszlE11descriptionSSvg",
+            "_$s16FirebaseSessions14SessionDetailsCACycfC",
+            "_firebase_appquality_sessions_SessionEvent_fields",
+            "_$sSo44_firebase_appquality_sessions_LogEnvironmentV16FirebaseSessionsE11descriptionSSvpMV",
+            "_$s16FirebaseSessions14SessionDetailsCMn",
+            "_$sSo36_firebase_appquality_sessions_OsNameV16FirebaseSessionsE11descriptionSSvpMV",
+            "_$s16FirebaseSessions0B14SubscriberNameO8rawValueSivg",
+            "_$s16FirebaseSessions14SessionDetailsC9sessionIdSSSgvgTq",
+            "_$sSp16FirebaseSessionsSo16pb_bytes_array_sVRszlE11descriptionSSvpMV",
+            "_$sSq16FirebaseSessionsSpySo16pb_bytes_array_sVGRszlE11descriptionSSvpMV",
+            "_firebase_appquality_sessions_ApplicationInfo_fields",
+            "_$sSp16FirebaseSessionsSo16pb_bytes_array_sVRszlE11descriptionSSvg",
+            "_$s16FirebaseSessions0B12DependenciesC13addDependency4nameyAA0B14SubscriberNameO_tFZ",
+            "_$sSo36_firebase_appquality_sessions_OsNameVs23CustomStringConvertible16FirebaseSessionsMc",
+            "_Swift50Overrides",
+            "_firebase_appquality_sessions_NetworkConnectionInfo_fields",
+            "_firebase_appquality_sessions_SessionInfo_fields",
+            "_$sSo36_firebase_appquality_sessions_OsNameV16FirebaseSessionsE11descriptionSSvg",
+            "_$sSo44_firebase_appquality_sessions_LogEnvironmentVs23CustomStringConvertible16FirebaseSessionsMc",
+            "_$s16FirebaseSessions0B12DependenciesCMa",
+            "_$s16FirebaseSessions0B14SubscriberNameOSHAAMc",
+            "_$s16FirebaseSessions14SessionDetailsCACycfc",
+            "_FirebaseSessionsVersionString",
+            "_$s16FirebaseSessions0B12DependenciesCACycfC",
+            "_$s16FirebaseSessions0B14SubscriberNameOSQAAMc",
+            "_$s16FirebaseSessions0B12DependenciesCMn",
+            "_$s16FirebaseSessions0B14SubscriberNameOSYAAMc",
+            "_$sSo39_firebase_appquality_sessions_EventTypeV16FirebaseSessionsE11descriptionSSvpMV",
+            "_$sSo49_firebase_appquality_sessions_DataCollectionStateVs23CustomStringConvertible16FirebaseSessionsMc",
+            "_$s16FirebaseSessions0B14SubscriberNameON",
+            "_$s16FirebaseSessions0B14SubscriberNameO11descriptionSSvpMV",
+            "_$s16FirebaseSessions14SessionDetailsC9sessionIdSSSgvsTq",
+            "_FirebaseSessionsVersionNumber",
+            "_firebase_appquality_sessions_DataCollectionStatus_fields",
+            "_$s16FirebaseSessions0B14SubscriberNameOMn",
+            "_$s16FirebaseSessions14SessionDetailsC9sessionIdSSSgvpWvd",
+            "_$sSo49_firebase_appquality_sessions_DataCollectionStateV16FirebaseSessionsE11descriptionSSvg"
+          ],
+          "objc_class": [
+            "PodsDummy_FirebaseSessions",
+            "FIRSessionsDependencies",
+            "FIRSessionDetails"
+          ]
+        },
+        "text": {
+          "global": [
+            "_nanopb_free",
+            "_FIRSESGetAppleApplicationInfoTag",
+            "_FIRSESIsPBDataEqual",
+            "_FIRSESMakeEncodeError",
+            "_FIRSESPBGetError",
+            "_FIRSESDecodeData",
+            "_FIRSESGetSysctlEntry",
+            "_FIRSESEncodeString",
+            "_FIRSESEncodeProto",
+            "_FIRSESEncodeData",
+            "_FIRSESIsPBArrayEqual",
+            "_FIRSESDecodeString",
+            "_FIRSESIsPBStringEqual"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/FirebaseSessions.framework/FirebaseSessions"
+      }
+    ],
+    "swift_abi": [
+      {
+        "abi": 7
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "11",
+        "target": "arm64-ios"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

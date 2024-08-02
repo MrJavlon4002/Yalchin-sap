@@ -1,0 +1,49 @@
+dependencies: \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Release-iphoneos/FirebaseAuth.build/module.modulemap \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/AuthProvider/OAuth/FIROAuthProvider.m \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIROAuthProvider.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRFederatedAuthProvider.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthUIDelegate.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Release-iphoneos/FirebaseAppCheckInterop.build/module.modulemap \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Target\ Support\ Files/FirebaseAppCheckInterop/FirebaseAppCheckInterop-umbrella.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAppCheckInterop/FirebaseAppCheck/Interop/Public/FirebaseAppCheckInterop/FIRAppCheckInterop.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAppCheckInterop/FirebaseAppCheck/Interop/Public/FirebaseAppCheckInterop/FIRAppCheckProtocol.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAppCheckInterop/FirebaseAppCheck/Interop/Public/FirebaseAppCheckInterop/FIRAppCheckTokenResultInterop.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAppCheckInterop/FirebaseAppCheck/Interop/Public/FirebaseAppCheckInterop/FirebaseAppCheckInterop.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRFacebookAuthProvider.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIROAuthCredential.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthCredential.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseCore/Extension/FirebaseCoreInternal.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Release-iphoneos/FirebaseCore.build/module.modulemap \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRConfiguration.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRLoggerLevel.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FirebaseCore.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIROptions.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRVersion.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseCore/Extension/FIRAppInternal.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseCore/Extension/FIRComponent.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseCore/Extension/FIRComponentContainer.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseCore/Extension/FIRComponentType.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseCore/Extension/FIRDependency.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseCore/Extension/FIRHeartbeatLogger.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseCore/Extension/FIRLibrary.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseCore/Extension/FIRLogger.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseCore/Extension/FIROptionsInternal.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuthGlobalWorkQueue.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuth_Internal.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Interop/FIRAuthInterop.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuth.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthAPNSTokenType.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthErrors.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/AuthProvider/OAuth/FIROAuthCredential_Internal.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthBackend.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRPCRequest.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRPCResponse.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRequestConfiguration.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthErrorUtils.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRMultiFactorInfo.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthInternalErrors.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthWebUtils.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Utilities/FIRAuthURLPresenter.h

@@ -1,0 +1,43 @@
+dependencies: \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Release-iphoneos/flutter_image_compress_common.build/module.modulemap \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadata.m \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Target\ Support\ Files/flutter_image_compress_common/flutter_image_compress_common-prefix.pch \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadata.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadataTIFF.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadataBase.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/build/Pods.build/Release-iphoneos/Mantle.build/module.modulemap \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Target\ Support\ Files/Mantle/Mantle-umbrella.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Mantle/Mantle/MTLReflection.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Mantle/Mantle/NSDictionary+MTLJSONKeyPath.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Mantle/Mantle/NSError+MTLModelException.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Mantle/Mantle/include/Mantle.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Mantle/Mantle/include/MTLJSONAdapter.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Mantle/Mantle/include/MTLModel.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Mantle/Mantle/include/MTLModel+NSCoding.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Mantle/Mantle/include/MTLValueTransformer.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Mantle/Mantle/include/MTLTransformerErrorHandling.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Mantle/Mantle/include/NSArray+MTLManipulationAdditions.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Mantle/Mantle/include/NSDictionary+MTLManipulationAdditions.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Mantle/Mantle/include/NSDictionary+MTLMappingAdditions.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Mantle/Mantle/include/NSObject+MTLComparisonAdditions.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Mantle/Mantle/include/NSValueTransformer+MTLInversionAdditions.h \
+  /Users/javlonvaliyev/Desktop/sap_app/ios/Pods/Mantle/Mantle/include/NSValueTransformer+MTLPredefinedTransformerAdditions.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadataGIF.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadataJFIF.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadataExif.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadataPNG.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadataIPTC.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadataIPTCContactInfo.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadataGPS.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadataRaw.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadataCIFF.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadataMakerCanon.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadataMakerNikon.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadataMakerMinolta.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadataMakerFuji.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadataMakerOlympus.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadataMakerPentax.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadata8BIM.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadataDNG.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/SYMetadataExifAux.h \
+  /Users/javlonvaliyev/.pub-cache/hosted/pub.dev/flutter_image_compress_common-1.0.3/ios/Classes/SYPictureMetadata/NSDictionary+SY.h

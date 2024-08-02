@@ -1,0 +1,28 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "f528d641ee25ee5ccbea7dc25b247107a3151e26396b6556a1d5442cd3f2c39f"
+build_start_time: [1700068075, 183963000]
+build_end_time: [1700068111, 883834000]
+inputs:
+  ? "/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Heartbeat.swift"
+  : [1700066537, 277781337]
+  ? "/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatController.swift"
+  : [1700066537, 279504296]
+  ? "/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatLoggingTestUtils.swift"
+  : [1700066537, 279818580]
+  ? "/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatStorage.swift"
+  : [1700066537, 280197654]
+  ? "/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsBundle.swift"
+  : [1700066537, 280314943]
+  ? "/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsPayload.swift"
+  : [1700066537, 280547271]
+  ? "/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/RingBuffer.swift"
+  : [1700066537, 278030956]
+  "/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Storage.swift": [1700066537, 277575883]
+  ? "/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/StorageFactory.swift"
+  : [1700066537, 280669185]
+  ? "/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/WeakContainer.swift"
+  : [1700066537, 280426607]
+  ? "/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatController.swift"
+  : [1700066537, 279241594]
+  ? "/Users/javlonvaliyev/Desktop/sap_app/ios/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatsPayload.swift"
+  : [1700066537, 279621001]

@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "7b743e97d496544f8ceb9f9eb0322893aace31bb7c286e232a8ee308a01e7863"
+build_start_time: [1700068175, 837037000]
+build_end_time: [1700068184, 665771000]
+inputs:
+  "/Users/javlonvaliyev/Desktop/sap_app/ios/Runner/AppDelegate.swift": [1700066473, 893603418]
+  ? "/Users/javlonvaliyev/Desktop/sap_app/ios/build/Runner.build/Release-iphoneos/Runner.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1700068175, 758602836]
