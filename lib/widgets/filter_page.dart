@@ -140,7 +140,7 @@ class _FilterPageState extends ConsumerState<FilterPage> {
                   onPressed: () {
                     _filterProductList();
                   },
-                  child: Text("Ko'rsatish", style: TextStyle(color: Colors.white),))
+                  child: Text("Ko'rsatish", style: TextStyle(color: Colors.blue),))
             ],
           )
         ],

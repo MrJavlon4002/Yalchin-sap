@@ -413,7 +413,7 @@ class _FilterCategoryPageState extends State<FilterCategoryPage> {
                     onPressed: () {
                       _filterCategoryEnd();
                     },
-                    child: Text("Filterlash", style: TextStyle(color: Colors.white),)),
+                    child: Text("Filterlash", style: TextStyle(color: Colors.blue),)),
               ),
             ],
           )
