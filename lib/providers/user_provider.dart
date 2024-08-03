@@ -35,7 +35,7 @@ class UsersNotifier extends StateNotifier<List<User>> {
       }
 
       final Map<String, dynamic> listData =
-          json.decode(utf8.decode(response.bodyBytes));
+      json.decode(utf8.decode(response.bodyBytes));
 
       final List<User> loadedUsers = [];
 
@@ -69,14 +69,14 @@ class UsersNotifier extends StateNotifier<List<User>> {
   }
 
   bool checkLogin(String login){
-     bool IsExisting = state.any((element) => element.login == login);
+    bool IsExisting = state.any((element) => element.login == login);
 
     return IsExisting;
   }
 
-  void addUser(String login, String password, bool isAdmin) async {
-    final url = Uri.https(
-        project_rtdb, 'users-list.json');
+
+  Future<bool> addUser(String login, String password, bool isAdmin) async {
+    final url = Uri.https(project_rtdb, 'users-list.json');
 
     try {
       final response = await http.post(
@@ -93,8 +93,7 @@ class UsersNotifier extends StateNotifier<List<User>> {
         ),
       );
 
-      final Map<String, dynamic> resData =
-          json.decode(utf8.decode(response.bodyBytes));
+      final Map<String, dynamic> resData = json.decode(utf8.decode(response.bodyBytes));
 
       state = [
         ...state,
@@ -102,14 +101,17 @@ class UsersNotifier extends StateNotifier<List<User>> {
             id: resData['name'],
             isAdmin: isAdmin,
             login: login,
-            password: password)
+            password: password
+        )
       ];
+      return true;
     } catch (error) {
-      // setState(() {
-      //   _error = "Something went wrong!";
-      // });
+      print("Error adding user: $error");
+      return false;
     }
   }
+
+
 
   Future<bool> deleteUser(String login) async {
     String id = state.firstWhere((el) => el.login == login).id;
@@ -130,7 +132,7 @@ class UsersNotifier extends StateNotifier<List<User>> {
     }
 
 
-      state = state.where((element) => element.login!=login).toList();
+    state = state.where((element) => element.login!=login).toList();
 
 
     return IsDeleted;
@@ -146,4 +148,4 @@ class UsersNotifier extends StateNotifier<List<User>> {
 }
 
 final usersProvider =
-    StateNotifierProvider<UsersNotifier, List<User>>((ref) => UsersNotifier());
+StateNotifierProvider<UsersNotifier, List<User>>((ref) => UsersNotifier());

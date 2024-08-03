@@ -5,7 +5,7 @@ class User{
     required this.isAdmin,
     required this.login,
     required this.password,
-    
+
   });
 
   final bool isAdmin;

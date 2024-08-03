@@ -109,7 +109,7 @@ class _UserCreateScreenState extends ConsumerState<UserCreateScreen> {
             SnackBar(
               backgroundColor: Colors.red,
               content: Text(
-                "Bunda login bilan user yaratilgan!",
+                "Bunday login bilan user yaratilgan!",
                 style: TextStyle(fontSize: 16),
               ),
               duration: Duration(seconds: 1),

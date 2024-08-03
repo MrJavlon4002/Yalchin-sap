@@ -58,7 +58,7 @@ class _GroceryItemCardState extends State<GroceryItemCard> {
           // direction: Axis.vertical,
           children: [
             Container(
-              height: 190,
+              height: 170,
               child: widget.product_item.imageUrl.isNotEmpty
                   ? CachedNetworkImage(
                       imageUrl: widget.product_item.imageUrl,

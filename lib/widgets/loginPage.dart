@@ -3,13 +3,16 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
+
 // import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:sap_app/providers/category_provider.dart';
+
 // import 'package:get/get.dart';
 import 'package:sap_app/providers/user_provider.dart';
 import 'package:sap_app/widgets/auth.dart';
 import 'package:sap_app/widgets/grocery_list.dart';
+import 'package:sap_app/widgets/register_page.dart';
 
 import '../models/user.dart';
 import '../providers/product_provider.dart';
@@ -53,6 +56,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
   bool isLogin = true;
   bool _isWithStoredAccount = false;
   String _existedUserLogin = "";
+  bool isPasswordVisible = false;
 
   int _success = 1;
   String _userEmail = "";
@@ -217,28 +221,41 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
     // });
   }
 
-  Future<int> addEntryToDB(User user) async {
-    int id = -1;
+  // Future<int> addEntryToDB(User user) async {
+  //   int id = -1;
+  //
+  //   _existingUsers.forEach((us) {
+  //     if (us.login == user.login) return;
+  //   });
+  //
+  //   try {
+  //     int id = await _db!.insert("users", {
+  //       "id": user.id,
+  //       "login": user.login,
+  //       "password": user.password,
+  //       "isAdmin": user.isAdmin
+  //     });
+  //   } catch (e) {
+  //     print("LoginPageRelatedError: " + id.toString());
+  //     return -1;
+  //   }
+  //
+  //   print(id);
+  //
+  //   return id;
+  // }
 
-    _existingUsers.forEach((us) {
-      if (us.login == user.login) return;
-    });
-
+  Future<void> addEntryToDB(User user) async {
     try {
-      int id = await _db!.insert("users", {
+      await _db!.insert("users", {
         "id": user.id,
         "login": user.login,
         "password": user.password,
-        "isAdmin": user.isAdmin
+        "isAdmin": user.isAdmin ? 1 : 0
       });
     } catch (e) {
-      print("LoginPageRelatedError: " + id.toString());
-      return -1;
+      print("Error adding user to local DB: $e");
     }
-
-    print(id);
-
-    return id;
   }
 
   void signInWithLoginAndPassword() async {
@@ -258,10 +275,10 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
         Auth.logedInUser = ref
             .read(usersProvider)
             .firstWhere((element) => element.login == _loginController.text);
-        int res = await addEntryToDB(Auth.logedInUser!);
-        if (res != -1) {
-          print("Success");
-        }
+        // int res = await addEntryToDB(Auth.logedInUser!);
+        // if (res != -1) {
+        //   print("Success");
+        // }
 
         Navigator.of(context).pushReplacement(
             MaterialPageRoute(builder: (context) => GroceryList()));
@@ -340,8 +357,18 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
               ),
               TextField(
                 controller: _passwordController,
-                decoration: const InputDecoration(
+                decoration: InputDecoration(
                     labelText: 'Parol',
+                    suffixIcon: IconButton(
+                      onPressed: () {
+                        setState(() {
+                          isPasswordVisible = !isPasswordVisible;
+                        });
+                      },
+                      icon: Icon(isPasswordVisible
+                          ? Icons.visibility
+                          : Icons.visibility_off),
+                    ),
                     labelStyle: TextStyle(
                         fontFamily: 'Montserrat',
                         fontWeight: FontWeight.bold,
@@ -349,7 +376,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                     focusedBorder: UnderlineInputBorder(
                       borderSide: BorderSide(color: Colors.green),
                     )),
-                obscureText: true,
+                obscureText: isPasswordVisible,
               ),
               const SizedBox(
                 height: 5.0,
@@ -390,6 +417,25 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
               ),
               SizedBox(
                 height: 15,
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text("Akauntingiz yoqmi? "),
+                  Material(
+                    child: InkWell(
+                      splashColor: Colors.grey,
+                      onTap: () {
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => RegisterScreen(),
+                          ),
+                        );
+                      },
+                      child: Text("Registratsiya qilish"),
+                    ),
+                  ),
+                ],
               ),
             ],
           ),

@@ -1,17 +1,21 @@
 import 'dart:convert';
+
 // import 'dart:html';
 import 'dart:io';
 
 import 'package:currency_symbols/currency_symbols.dart';
+
 // import 'package:file_picker/file_picker.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
+
 // import 'package:flex_color_picker/flex_color_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
+
 // import './pickers/hsv_picker.dart';
 // import './pickers/material_picker.dart';
 // import './pickers/block_picker.dart';
@@ -45,6 +49,8 @@ class NewItem extends ConsumerStatefulWidget {
 class _NewItemState extends ConsumerState<NewItem> {
   final _formKey = GlobalKey<FormState>();
   XFile? pickedFile;
+  final ImagePicker _picker = ImagePicker();
+
 
   Map<String, Map<String, List<String>>> _categoriesMap = {};
 
@@ -52,6 +58,7 @@ class _NewItemState extends ConsumerState<NewItem> {
   Map<String, List<String>> _brands = {};
 
   late String _imageUrl;
+
   // final storage = FirebaseStorage.instance;
 
   var _enteredName = '';
@@ -84,23 +91,37 @@ class _NewItemState extends ConsumerState<NewItem> {
     super.initState();
   }
 
+
+  Future<void> _selectImage() async {
+    final XFile? file = await _picker.pickImage(source: ImageSource.gallery, imageQuality: 30);
+    setState(() {
+      pickedFile = file;
+    });
+  }
+
+  void _clearImage() {
+    setState(() {
+      pickedFile = null;
+    });
+  }
+
   void _setSettings() async {
     ref.read(categoriesProvider.notifier).loadAllCategories();
     // _categoriesMap = await ref.watch(categoriesProvider);
     // _selectedCategory = _categoriesMap.keys.toList()[0];
   }
 
-  Future _selectImage() async {
-    // final result = await FilePicker.platform.pickFiles();
-    ImagePicker imagePicker = ImagePicker();
-
-    XFile? file = await imagePicker.pickImage(
-        source: ImageSource.gallery, imageQuality: 30);
-
-    setState(() {
-      pickedFile = file;
-    });
-  }
+  // Future _selectImage() async {
+  //   // final result = await FilePicker.platform.pickFiles();
+  //   ImagePicker imagePicker = ImagePicker();
+  //
+  //   XFile? file = await imagePicker.pickImage(
+  //       source: ImageSource.gallery, imageQuality: 30);
+  //
+  //   setState(() {
+  //     pickedFile = file;
+  //   });
+  // }
 
   Future<Database> _getDatabase() async {
     final dbPath = await sql.getDatabasesPath();
@@ -489,6 +510,7 @@ class _NewItemState extends ConsumerState<NewItem> {
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Expanded(
+                    flex: 1,
                     child: TextFormField(
                       decoration: const InputDecoration(
                         label: Text('Miqdori'),
@@ -513,7 +535,9 @@ class _NewItemState extends ConsumerState<NewItem> {
                     width: 8,
                   ),
                   Expanded(
+                    flex: 1,
                     child: DropdownButtonFormField(
+                        isExpanded: true,
                         // key: _formKey,
                         value: _categoriesMap.keys.toList()[_categoriesMap.keys
                             .toList()
@@ -537,7 +561,12 @@ class _NewItemState extends ConsumerState<NewItem> {
                                     const SizedBox(
                                       width: 6,
                                     ),
-                                    Text(category)
+                                    FittedBox(
+                                      child: Text(
+                                        category,
+                                        overflow: TextOverflow.ellipsis,
+                                      ),
+                                    )
                                   ])),
                         ],
                         onChanged: (value) {
@@ -584,9 +613,7 @@ class _NewItemState extends ConsumerState<NewItem> {
                   ),
                   Expanded(
                     child: TextFormField(
-                      onTap: (){
-                        
-                      },
+                      onTap: () {},
                       decoration: const InputDecoration(
                         label: Text('Mahsulot narxi '),
                       ),
@@ -616,6 +643,7 @@ class _NewItemState extends ConsumerState<NewItem> {
                 children: [
                   Expanded(
                     child: DropdownButtonFormField(
+                      isExpanded: true,
                         value: _selectedCurrency,
                         items: [
                           for (final currency in currencies)
@@ -629,7 +657,9 @@ class _NewItemState extends ConsumerState<NewItem> {
                                   const SizedBox(
                                     width: 6,
                                   ),
-                                  Text(currency)
+                                  FittedBox(
+                                      fit: BoxFit.contain,
+                                      child: Text(currency))
                                 ])),
                         ],
                         onChanged: (value) {
@@ -638,10 +668,10 @@ class _NewItemState extends ConsumerState<NewItem> {
                           });
                         }),
                   ),
-                  TextButton(
-                    onPressed: _isSending ? null : _selectImage,
-                    child: const Text("Rasm tanlash"),
-                  ),
+                  // TextButton(
+                  //   onPressed: _isSending ? null : _selectImage,
+                  //   child: const Text("Rasm tanlash"),
+                  // ),
                   ElevatedButton(
                       style: ElevatedButton.styleFrom(
                           // backgroundColor: _pickedColor,
@@ -651,7 +681,7 @@ class _NewItemState extends ConsumerState<NewItem> {
                       },
                       child: Text(
                         "Rang tanlash",
-                        style: TextStyle(color: Colors.white),
+                        style: TextStyle(color: Colors.black),
                       )),
                   SizedBox(
                     width: 20,
@@ -678,30 +708,76 @@ class _NewItemState extends ConsumerState<NewItem> {
               SizedBox(
                 height: 20,
               ),
+              // Container(
+              //   child: pickedFile != null
+              //       ? Container(
+              //           height: 300,
+              //           child: Center(
+              //             // child: Text(pickedFile!.name),
+              //             child: Image.file(
+              //               File(pickedFile!.path),
+              //               width: double.infinity,
+              //               fit: BoxFit.contain,
+              //             ),
+              //           ),
+              //         )
+              //       : Container(
+              //           decoration: BoxDecoration(
+              //             border: Border.all(
+              //               width: 2,
+              //             ),
+              //           ),
+              //           child: Padding(
+              //             padding: const EdgeInsets.all(40.0),
+              //             child: Center(child: Text("Rasm tanlang")),
+              //           ),
+              //         ),
+              // ),
               Container(
-                child: pickedFile != null
-                    ? Container(
-                        height: 300,
-                        child: Center(
-                          // child: Text(pickedFile!.name),
-                          child: Image.file(
-                            File(pickedFile!.path),
-                            width: double.infinity,
-                            fit: BoxFit.contain,
+                height: 200,
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  border: Border.all(color: Colors.grey),
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: Center(
+                  child: pickedFile == null
+                      ? InkWell(
+                    onTap: _selectImage,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: const [
+                        Icon(Icons.cloud_upload_rounded, size: 50),
+                        SizedBox(height: 10),
+                        Text('Rasmni yuklang', style: TextStyle(fontSize: 16)),
+                      ],
+                    ),
+                  )
+                      : Stack(
+                    children: [
+                      Image.file(
+                        File(pickedFile!.path),
+                        width: double.infinity,
+                        height: double.infinity,
+                        fit: BoxFit.cover,
+                      ),
+                      Positioned(
+                        top: 8,
+                        right: 8,
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            shape: BoxShape.circle
                           ),
-                        ),
-                      )
-                    : Container(
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            width: 2,
+                          child: IconButton(
+                            icon: const Icon(Icons.clear, color: Colors.red),
+                            onPressed: _clearImage,
                           ),
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(40.0),
-                          child: Center(child: Text("Rasm tanlang")),
                         ),
                       ),
+                    ],
+                  ),
+                ),
               ),
               // if ()
 
@@ -720,8 +796,13 @@ class _NewItemState extends ConsumerState<NewItem> {
                           },
                     child: const Text("Tozalash"),
                   ),
-                  ElevatedButton(
+                  MaterialButton(
+                    color: Colors.blue,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10)
+                    ),
                     onPressed: _isSending ? null : _saveItem,
+
                     child: _isSending
                         ? const SizedBox(
                             height: 16,
